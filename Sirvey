@@ -1,1 +1,10 @@
-
+<html>
+  <head>
+    <title>Survey Buddies the most exiting</title>
+  </head>
+  <body> 
+          <h1> Full Name: </h1>
+          <h2> Date: </h2>
+          <div><a href="{{ host }}about">About</a></div>
+          <p>{% if msg %} {{ msg }} {% endif %}</p>
+  </body>  
